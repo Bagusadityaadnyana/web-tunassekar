@@ -1,0 +1,196 @@
+<?php
+// Cek apakah form login sudah disubmit atau belum
+if (isset($_POST['submit'])) {
+  // Jika ya, panggil file login.php untuk memproses login
+  require 'login.php';
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tunas Sekar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- logo title bar -->
+    <link rel="icon" href="assets/logotunassekar.png" type="image/x-icon">
+</head>
+<body>
+
+        </style>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-transparent navbar-dark position-fixed w-100">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./assets/logotunassekar.png" alt="Logo" width="30" class="d-inline-block align-text-top">
+                Tunas Sekar
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link active" aria-current="page" href="index.php">Beranda</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#layanan">Layanan</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#rekomendasi">Rekomendasi</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#kontak">Kontak</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    <!-- content -->
+     <section id="rekomendasi" class="pt-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 mb-4">
+                    <div class="card p-2" style="width: 22rem;">
+                    <img src="assets/jenis-tanaman/1.jpg">
+                    <div class="card-body">
+                        <h4>IDR.15.000.00</h4>
+                        <p class="mb-4 lh-sm">Anggrek <br> <span class="text-success">Ready</span></p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card p-2" style="width: 22rem;">
+                    <img src="assets/jenis-tanaman/2.jpg">
+                    <div class="card-body">
+                        <h4>IDR.15.000.00</h4>
+                        <p class="mb-4 lh-sm">Bougenville<br> <span class="text-success">Ready</span></p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card p-2" style="width: 22rem;">
+                    <img src="assets/jenis-tanaman/3.jpg">
+                    <div class="card-body">
+                        <h4>IDR.15.000.00</h4>
+                        <p class="mb-4 lh-sm">Geranium<br> <span class="text-success">Ready</span></p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card p-2" style="width: 22rem;">
+                    <img src="assets/jenis-tanaman/4.jpg">
+                    <div class="card-body">
+                        <h4>IDR.15.000.00</h4>
+                        <p class="mb-4 lh-sm">Suplir<br> <span class="text-success">Ready</span></p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card p-2" style="width: 22rem;">
+                    <img src="assets/jenis-tanaman/5.jpg">
+                    <div class="card-body">
+                        <h4>IDR.15.000.00</h4>
+                        <p class="mb-4 lh-sm">Caladium Bicolor<br> <span class="text-success">Ready</span></p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card p-2" style="width: 22rem;">
+                    <img src="assets/jenis-tanaman/6.jpg">
+                    <div class="card-body">
+                        <h4>IDR.15.000.00</h4>
+                        <p class="mb-4 lh-sm">Dieffenbachia<br> <span class="text-success">Ready</span></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 mb-4">
+                    <div class="card p-2" style="width: 22rem;">
+                    <img src="assets/jenis-tanaman/7.jpg">
+                    <div class="card-body">
+                        <h4>IDR.15.000.00</h4>
+                        <p class="mb-4 lh-sm">Palem Kuning<br> <span class="text-success">Ready</span></p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card p-2" style="width: 22rem;">
+                    <img src="assets/jenis-tanaman/8.jpg">
+                    <div class="card-body">
+                        <h4>IDR.15.000.00</h4>
+                        <p class="mb-4 lh-sm">Zamia<br> <span class="text-success">Ready</span></p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card p-2" style="width: 22rem;">
+                    <img src="assets/jenis-tanaman/9.jpg">
+                    <div class="card-body">
+                        <h4>IDR.15.000.00</h4>
+                        <p class="mb-4 lh-sm"><br> <span class="text-success">Lobelia</span></p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card p-2" style="width: 22rem;">
+                    <img src="assets/jenis-tanaman/10.jpg">
+                    <div class="card-body">
+                        <h4>IDR.15.000.00</h4>
+                        <p class="mb-4 lh-sm">Sweet Alyssum<br> <span class="text-success">Ready</span></p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card p-2" style="width: 22rem;">
+                    <img src="assets/jenis-tanaman/11.jpg">
+                    <div class="card-body">
+                        <h4>IDR.15.000.00</h4>
+                        <p class="mb-4 lh-sm">Gelombang Cinta<br> <span class="text-success">Ready</span></p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card p-2" style="width: 22rem;">
+                    <img src="assets/jenis-tanaman/12.jpg">
+                    <div class="card-body">
+                        <h4>IDR.15.000.00</h4>
+                        <p class="mb-4 lh-sm"><br> <span class="text-success">Cemara Norfolk</span></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+      </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
